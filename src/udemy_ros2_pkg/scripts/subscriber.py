@@ -3,9 +3,10 @@ from rclpy.node import Node
 from std_msgs.msg import String
 
 class SubscriberNode(Node):
-    super().__init__("subscriber_node")
-    self.subscriber=self.create_subscriber(String,'topic',10)
-    self.timer=self.create_timer(self.timer_callback())
+    def __init__(self):
+        super().__init__("subscriber_node")
+        self.subscriber=self.create_subscriber(String,'topic',10)
+        self.timer=self.create_timer(0.5,self.timer_callback())
 
     def timer_callback(self):
         self.msg=String()
