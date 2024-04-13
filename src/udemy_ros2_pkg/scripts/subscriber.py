@@ -8,16 +8,18 @@ class SubscriberNode(Node):
     self.timer=self.create_timer(self.timer_callback())
 
     def timer_callback(self):
-        
-
+        self.msg=String()
+        self.msg.data='Hello world'
+        self.subscriber.subscribe(msg)
+        self.get_logger().info('subscriber: "%s"' % msg.data)
 
 def main():
     rclpy.init()
-
+    node=SubscriberNode()
+    print("the subscriber node is running")
     try:
-        pass
+        rclpy.spin(node)
     except:
-        pass
-
+        rclpy.shutdown()
 if __name__=='__main__':
     main()
