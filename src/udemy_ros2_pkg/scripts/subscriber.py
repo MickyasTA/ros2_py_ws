@@ -5,22 +5,19 @@ from std_msgs.msg import String
 class SubscriberNode(Node):
     def __init__(self):
         super().__init__("subscriber_node")
-        self.subscriber=self.create_subscriber(String,'topic',10)
-        self.timer=self.create_timer(0.5,self.timer_callback())
+        self.subscriber=self.create_subscription(String,'topic',self.subscriber_callback,10)
 
-    def timer_callback(self):
-        self.msg=String()
-        self.msg.data='Hello world'
-        self.subscriber.subscribe(msg)
-        self.get_logger().info('subscriber: "%s"' % msg.data)
+    def subscriber_callback(self,msg):
+        print("Recived:"+msg.data)
 
 def main():
     rclpy.init()
     node=SubscriberNode()
-    print("the subscriber node is running")
+    print("Weatting for data to br published ....")
     try:
         rclpy.spin(node)
     except:
+        print("Terminating the node ... ")
         rclpy.shutdown()
 if __name__=='__main__':
     main()
