@@ -1,0 +1,15 @@
+/home/mickyas/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+/home/mickyas/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+/home/mickyas/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+/home/mickyas/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+/home/mickyas/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+/home/mickyas/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+/home/mickyas/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+/home/mickyas/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+/home/mickyas/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+/home/mickyas/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+/home/mickyas/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+/home/mickyas/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+/home/mickyas/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+/home/mickyas/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+/home/mickyas/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
